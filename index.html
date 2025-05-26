@@ -156,7 +156,7 @@
     <!-- Labels for faces -->
     <div id="software-label" class="label software" onclick="toggleDetail('software')">Software</div>
     <div id="hardware-label" class="label hardware" onclick="toggleDetail('hardware')">Hardware</div>
-    <div id="external-label" class="label external" onclick="toggleDetail('external')">External</div>
+    <div id="external-label" class="label external" onclick="toggleDetail('external')">Ecosystem</div>
     <div id="enablers-label" class="label enablers" onclick="toggleDetail('enablers')">Enablers</div>
 
     <!-- Detail panels for each facet -->
@@ -223,7 +223,7 @@
         document.body.appendChild(renderer.domElement);
 
         // Create tetrahedron geometry
-        const geometry = new THREE.TetrahedronGeometry(2, 0);
+        const geometry = new THREE.TetrahedronGeometry(7, 0);
         
         // Create materials for each face with different colors
         const materials = [
